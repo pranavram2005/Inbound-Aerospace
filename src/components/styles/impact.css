@@ -1,0 +1,46 @@
+.heading {
+  color: white;
+  text-align: center;
+  margin: 30px;
+}
+/* .card {
+  padding: 10px;
+  margin: 40px;
+  width: 250px;
+  max-width: 250px;
+  background-color: rgb(23 37 84);
+  color: white;
+  font-size: 1.2rem;
+} */
+.card-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0px 100px 100px 100px;
+}
+.impact-img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.read-section {
+  color: white;
+  padding: 0px 150px 50px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.footnote {
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .read-section {
+    padding: 2rem;
+    font-size: medium;
+  }
+  .card-section {
+    margin: 10px;
+  }
+  .card {
+    font-size: medium;
+    padding: 20px;
+  }
+}
